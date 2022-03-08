@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#dark-mode {
+    background-color: black;
+}
+
+/* index */
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-CI {
+    display: flex;
+    justify-content: center;
+}
+
+.container-CI a {
+    text-decoration: none;
+    margin: auto;
+    padding: 15px;
+    border: solid #A62727 1px;
+    color: black;
+    border-radius: 15px;
+}
+
+.container-CI a:hover {
+    color: white;
+    background-color: #e50914;
+}
+
+
+/* INSCRIPTION */
+
+#inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    height: 70vh;
+}
+
+form {
+    margin-top: 10%;
+    background-color: #f2f2f2;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px grey;
+}
+
+form input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.inscription {
+    justify-content: center;
+    text-align: center;
+}
+
+#inscription h2 {
+    color: #e50914;
+    margin-bottom: 20px;
+}
+
+form input input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fbfbfb;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.inscription p span {
+    color: #e50914;
+}
+
+.inscription .sendButton {
+    padding: 15px 25px;
+    border: none;
+    background-color: #e50914;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.inscription p {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e50914;
+}
+
+#odd p a:hover {
+    color:grey;
+}
+
+#inscription a:hover {
+    color:grey;
+}
+
+ /* The alert message box */
+ #notification-2 {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  } 
+
+  #inscriptionbutton:hover {
+      background-color: white;
+      color: #e50914;
+      border: 1px solid #e50914;
+  }
+  #sendButton:hover {
+    background-color: white;
+    color: #e50914;
+    border: 1px solid #e50914;
+}
+  

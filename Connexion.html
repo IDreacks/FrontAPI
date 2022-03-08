@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+    <title>Connexion</title>
+</head>
+
+<body>
+   
+    <div id="inscription">
+        
+        <form class="inscription" action="#" method="post" id="formco">
+            <div id="notification-2"></div>
+            <h2>Se connecter</h2>
+            <label>Email :</label>
+            <input type="text" name="email" id="email" autofocus required>
+            <label>Mot de passe :</label>
+            <input type="password" name="pass" id="password" required>
+            <input class="sendButton" type="submit" value="Se connecter" id="sendButton">
+            <p>Vous n'avez pas de compte ?
+                <a href="Inscription.html" id="link-create">Créez un compte </a>
+            </p>
+        </form>
+    </div>
+   
+    <script src="/Controller/ShowArticles.js" type="module"> </script>
+</body>
+
+</html>

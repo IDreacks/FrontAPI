@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Inscription</title>
+</head>
+
+<body>
+    <div id="inscription">
+        <form class="inscription" action="#" method="post" id="envoieform">
+            <div id="notification">
+ 
+            </div>
+            <h2>Inscription</h2>
+            <label>Email :</label>
+            <input type="email" name="email" id="email" required placeholder="tristan@gmail.com">
+            <div id="odd">
+
+                <label>Mot de passe :</label>
+                <input type="password" name="password" id="password" required placeholder="*******">
+
+
+                <input class="sendButton" name="submit" type="submit" value="Envoyer" id="inscriptionbutton">
+                <p>En créant votre compte, vous acceptez nos
+                    <span> <u>termes et conditions </u>
+                        <u> & politique de
+                            confidentialité </u> </span>
+                </p>
+                <p> Vous avez déjà un compte ? <a href="Connexion.html">Se connecter</a> </p>
+            </div>
+        </form>
+    </div>
+    <script src="/Controller/Inscription.js" type="module">
+    </script>
+</body>
+
+</html>
